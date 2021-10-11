@@ -17,5 +17,13 @@
   "bugs": {
     "url": "https://github.com/tranphuoclocce13/test-driven-carousel/issues"
   },
-  "homepage": "https://github.com/tranphuoclocce13/test-driven-carousel#readme"
+  "homepage": "https://github.com/tranphuoclocce13/test-driven-carousel#readme",
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "@babel/preset-env": "7.2.0",
+    "@babel/preset-react": "7.0.0"
+  },
+  "dependencies": {
+    "@babel/cli": "7.2.0"
+  }
 }
