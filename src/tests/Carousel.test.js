@@ -24,7 +24,6 @@ describe('Carousel', () => {
   ];
 
   describe('component with HOC', () => {
-    let wrapper;
     let mounted;
 
     beforeEach(() => {
