@@ -7,7 +7,7 @@
   "scripts": {
     "test": "jest",
     "testw": "jest --watchAll",
-    "lint:js": "eslint . && prettier-eslint --list-different **/*.js",
+    "lint:js": "eslint .",
     "lint:css": "stylelint **/*.js",
     "lint": "npm run lint:js && npm run lint:css",
     "format": "prettier-eslint --write **/*.js",
@@ -63,7 +63,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "eslint ."
+      "pre-commit": "npm run lint"
     }
   }
 }
